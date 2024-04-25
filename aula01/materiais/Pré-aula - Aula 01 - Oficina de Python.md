@@ -1,4 +1,7 @@
-# Introdução
+# Pré-aula - Aula 01 - Oficina de Python
+Bem-vindo ao seu material de pré-aula da nossa oficina de Python sobre sintaxe básica, condicionais, loops e funções. Aqui iremos abordr alguns dos principais conceitos que iremos ver durante a aula e aproveitar praticar.
+
+## Introdução
 
 O início de tudo é o site http://python.org.  Os principais links relacionados à programação, documentação e downloads estão lá. A documentação é boa e bem-organizada, e cobre diversos aspectos como instalação, biblioteca padrão, distribuição etc. Se você usa Windows, consegue fazer o download do arquivo .exe e instalar facilmente (clicando no botão amarelo conforme imagem abaixo).
 ![Página inicial do python](https://lh7-us.googleusercontent.com/y-d17FIru66kI27_a_apMBrbwGGGvqrTypNJ03HV2MAATDTCzDRfEp-AnbtuM5FamC3I6eF2FjipM86xgzrAIT41B4nlsEX3pyjvxpf8rT3-NJw-EzU_B6D_8BlMRTDcEftEiSt8TbqZ9EgdJnvUxPcYHSipQL-F)
