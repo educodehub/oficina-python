@@ -26,7 +26,7 @@ Para rodar a sua base de testes, precisará seguir alguns passos:
 > Antes de tudo precisamos baixar também os arquivos **test_media.py** e **pytest.ini**. Novamente, abra um terminal do seu prompt de comando e siga até este diretório **C:\Temp\exercicios_python**. Então, uma vez no diretório correto digite `curl -o test_media.py https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio03/test_media.py` para baixar o arquivo **test_media.py** e `curl -o pytest.ini https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio03/pytest.ini ` para baixar o arquivo **pytest.ini**. Feito isso, agora você pode prosseguir para os próximos passos.
 
 1. Abra um terminal do seu prompt de comando.
-2. Contamos que você já tenha a biblioteca **Pytest** instalada e configurada no seu computador. Caso não possua, siga este [tutorial](https://github.com/educodehub/oficina-python/blob/7687045011e7058f89afa1a526c5115dc4266b90/Instala%C3%A7%C3%A3o_pytest.md).
+2. Contamos que você já tenha a biblioteca **Pytest** instalada e configurada no seu computador. Caso não possua, siga este [tutorial](https://github.com/educodehub/oficina-python/blob/main/aula01/Instala%C3%A7%C3%A3o_pytest.md).
 3. Ainda no prompt de comando, vá para o mesmo diretório no qual você incluiu o arquivo **test_media.py**. No seu caso `C:\Temp\exercicios_python`.
 4. Uma vez no prompt, e no diretório correto, execute `pytest -k test_media.py`.
 
