@@ -14,8 +14,9 @@ Escreva um programa que receba um número natural *n* na entrada e imprima o fat
 `# É isso, mãos na massa! É hora de codar!` 👨‍💻
 
 ## Instruções para construir e rodar o script
+
 > [!NOTE]
-> Antes de continuarmos, você precisa baixar alguns arquivos. No exercício anterior você criou uma pasta **exercicios_python** no diretório `C:\Temp`. Abra um terminal do seu prompt de comando e vá para esse diretório (`C:\Temp\exercicios_python`). Uma vez no prompt de comando, digite: `curl -o fatorial.py https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio02/fatorial.py`. Isso fará o download do arquivo **fatorial.py**, um  arquivo de base para o exercício proposto, para a sua pasta **exercícios_python**. É nessa pasta que todos seus programas e testes devem ficar. **Não mude o nome do arquivo**.
+> Antes de continuarmos, você precisa baixar alguns arquivos. <ul><li>Caso ainda não tenha criado, em um diretório da sua escolha, crie uma pasta chamada **exercicios_python** e abra-a no VSCode, é nessa pasta que você alocará todos os programas e arquivos de testes desenvolvidos para todos os exercícios. <li>Com a pasta aberta, crie uma nova pasta chamada **fatorial** para armazenar os arquivos desta atividade em específico. <li>Digite `Ctrl+Shift+"` para abrir um terminal do seu prompt de comando e, em seguida, digite `cd fatorial` para abrir o diretório da atividade. <li>Uma vez no diretório da atividade, digite: `curl -o fatorial.py https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio02/fatorial.py`, para fazer o download do arquivo **fatorial.py**, que contém o esqueleto do programa para o exercício proposto. Utilize-o de base para desenvolver seu código. **Não mude o nome do arquivo**</ul>
 
 Ao abrir o arquivo **fatorial.py**, você notará que possuímos duas funções definidas, no entanto sem escopo, o qual será implementado por você, aluno, durante a resolução do exercício. Note que a função **calcular_fatorial** é responsável por deter a lógica do cálculo de fatorial. Fique bastante atento também as dicas que demos no tópico **Problema**, pois para entrada de números negativos, é imprescindível que sua função **calcular_fatorial** retorne "O número deve ser não negativo". E como sempre, a função **main()** é a nossa função principal, a qual as demais funções devem ser chamadas através dela.
 
@@ -23,12 +24,11 @@ Ao abrir o arquivo **fatorial.py**, você notará que possuímos duas funções 
 
 Para rodar a sua base de testes, precisará seguir alguns passos:
 > [!IMPORTANT]
-> Antes de tudo precisamos baixar também os arquivos **test_fatorial.py** e **pytest.ini**. Novamente, abra um terminal do seu prompt de comando e siga até este diretório **C:\Temp\exercicios_python**. Então, uma vez no diretório correto digite `curl -o test_fatorial.py https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio02/test_fatorial.py` para baixar o arquivo **test_fatorial.py** e `curl -o pytest.ini https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio02/pytest.ini ` para baixar o arquivo **pytest.ini**. Feito isso, agora você pode prosseguir para os próximos passos.
+> Antes de tudo, para os testes funcionarem, precisamos baixar também os arquivos **test_fatorial.py** e **pytest.ini**: <ul><li>Uma vez no diretório da atividade, digite `curl -o test_fatorial.py https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio02/test_fatorial.py` para baixar o arquivo **test_fatorial.py**. <li>Em seguida, digite `curl -o pytest.ini https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio02/pytest.ini` para baixar o arquivo **pytest.ini**. Feito isso, agora você pode prosseguir para os próximos passos.</ul>
 
-1. Abra um terminal do seu prompt de comando
-2. Contamos que você já tenha a biblioteca **Pytest** instalada e configurada no seu computador. Caso não possua, siga este [tutorial](https://github.com/educodehub/oficina-python/blob/main/aula01/Instala%C3%A7%C3%A3o_pytest.md).
-3. Ainda no prompt de comando, vá para o mesmo diretório no qual você incluiu o arquivo **test_fatorial.py**. No seu caso `C:\Temp\exercicios_python`.
-4. Uma vez no prompt, e no diretório correto, execute `pytest -k test_fatorial.py`.
+1. Se você ainda não possui a biblioteca **Pytest**, digite `pip install pytest` no terminal para instalá-la, caso isso não funcione, [acesse este tutorial](https://github.com/educodehub/oficina-python/blob/main/aula01/Instala%C3%A7%C3%A3o_pytest.md).
+2. Com a biblioteca instalada e ainda no prompt de comando, verifique se você está no diretório da atividade (o mesmo com todos os arquivos desta atividade), caso não esteja, volte aos passos no bloco **Note** e repita-os.
+3. Uma vez com o terminal no diretório correto, execute `pytest -k test_fatorial.py`.
 
 | **Testes que falharam**                                      |
 | ------------------------------------------------------------ |
