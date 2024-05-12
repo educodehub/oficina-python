@@ -6,6 +6,14 @@ Neste exercício, você vai construir, rodar e testar um programa que conta o n�
 
 Escreva um programa que conte o número de vogais em um texto digitado pelo usuário. O programa deve solicitar ao usuário que insira uma texto e, em seguida, calcular e exibir o número total de vogais na texto. **Desconsidere o uso de acentos**.
 
+<details>
+    <summary>Pistas</summary>
+    <ol>
+        <li>Lembre-se do uso do operador <strong>in</strong> em estruturas condicionais</li>
+        <li>Lembre-se que o laço <strong>for</strong> pode iterar sobre uma string
+    </ol>
+</details>
+
 
 
 | **Como o programa deve ser**                                 |
@@ -17,23 +25,22 @@ Escreva um programa que conte o número de vogais em um texto digitado pelo usu�
 ## Instruções para construir e rodar o script
 
 > [!NOTE]
-> Antes de continuarmos, você precisa baixar alguns arquivos. No diretório `C:\Temp`, crie uma pasta chamada **exercicios_python**, é nessa pasta que você alocará todos os programas e arquivos de testes desenvolvidos para os exercícios. Com a pasta criada, abra um terminal do seu prompt de comando e navegue até o diretório `C:\Temp\exercicios_python` usando o comando `cd` para isso. [Aqui está um tutorial do CMD](https://medium.com/@adsonrocha/como-abrir-e-navegar-entre-pastas-com-o-prompt-de-comandos-do-windows-10-68750eae8f47). Uma vez no prompt de comando e no diretório correto, digite: `curl -o contar_vogais.py https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio01/contar_vogais.py`. Isso fará o download do arquivo **contar_vogais.py**, contendo o esqueleto do programa para o exercício proposto. Utilize-o de base para desenvolver seu código. **Não mude o nome do arquivo**.
+> Antes de continuarmos, você precisa baixar alguns arquivos. <ul><li>Em um diretório da sua escolha, crie uma pasta chamada **exercicios_python** e abra-a no VSCode, é nessa pasta que você alocará todos os programas e arquivos de testes desenvolvidos para todos os exercícios. <li>Com a pasta aberta, crie uma nova pasta chamada **vogais** para armazenar os arquivos desta atividade em específico. <li>Digite `Ctrl+Shift+"` para abrir um terminal do seu prompt de comando e, em seguida, digite `cd vogais` para abrir o diretório da atividade. <li>Uma vez no diretório da atividade, digite: `curl -o contar_vogais.py https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio01/contar_vogais.py`, para fazer o download do arquivo **contar_vogais.py**, que contém o esqueleto do programa para o exercício proposto. Utilize-o de base para desenvolver seu código. **Não mude o nome do arquivo**.</ul>
 
-Ao abrir o arquivo **contar_vogais.py**, você notará que possuímos duas funções definidas, no entanto sem escopo, o qual será implementado por você, aluno, durante a resolução do exercício. Note que a função **contar_vogais** recebe um texto (string) como entrada. Essa função é responsável por deter a lógica por trás da contagem de vogais no texto recebido, seja uma frase ou palavra. Já a função **main()** é a nossa função principal, a qual as demais funções devem ser chamadas através dela. É nela em que você implementa as demais funcionalidades do seu programa.
+
+Ao abrir o arquivo **contar_vogais.py**, você notará que possuímos duas funções definidas, no entanto sem escopo, o qual será implementado por você, aluno, durante a resolução do exercício. Note que a função **contar_vogais()** recebe um argumento **texto** (string) como entrada. Essa função é responsável por deter a lógica por trás da contagem de vogais no texto recebido, seja uma frase ou palavra. Já a função **main()** é a nossa função principal, a qual deve receber a entrada do usuário e chamar as demais funções, além de exibir um resultado.
 
 **Dica:** Na função **contar_vogais()**, implemente somente a lógica de contar a quantidade de vogais para uma determinada entrada. Experimente deixar as demais lógicas e ações do seu programa na função **main()**.
 
 ## Instruções para bateria de testes
 
 Para rodar a sua base de testes, precisará seguir alguns passos:
-
 > [!IMPORTANT]
-> Antes de tudo precisamos baixar também os arquivos **test_conta_vogal.py** e **pytest.ini**. Novamente, abra um terminal do seu prompt de comando e siga até este diretório **C:\Temp\exercicios_python**. Então, uma vez no diretório correto digite `curl -o test_conta_vogal.py https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio01/test_conta_vogal.py` para baixar o arquivo **test_conta_vogal.py** e `curl -o pytest.ini https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio01/pytest.ini ` para baixar o arquivo **pytest.ini**. Feito isso, agora você pode prosseguir para os próximos passos.
+> Antes de tudo, para os testes funcionarem, precisamos baixar também os arquivos **test_conta_vogal.py** e **pytest.ini**: <ul><li>Uma vez no diretório da atividade, digite `curl -o test_conta_vogal.py https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio01/test_conta_vogal.py` para baixar o arquivo **test_conta_vogal.py**. <li>Em seguida, digite `curl -o pytest.ini https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio01/pytest.ini` para baixar o arquivo **pytest.ini**. Feito isso, agora você pode prosseguir para os próximos passos.</ul>
 
-1. Abra um terminal do seu prompt de comando
-2. Se você ainda não possui a biblioteca **Pytest**, vamos instalar. Para isso, [acesse este tutorial para instalar](https://github.com/educodehub/oficina-python/blob/main/aula01/Instala%C3%A7%C3%A3o_pytest.md). Siga todos os seus passos e quando finalizar, volte aqui e conclua sua bateria de testes. Mas caso já possua a biblioteca instalada e configurada, pode pular esse passo.
-3. Com a biblioteca instalada e ainda no prompt de comando, vá para o mesmo diretório no qual você incluiu o arquivo **test_conta_vogal.py**. No seu caso `C:\Temp\exercicios_python`.
-4. Uma vez no prompt, e no diretório correto, execute `pytest -k test_conta_vogal.py`.
+1. Se você ainda não possui a biblioteca **Pytest**, digite `pip install pytest` no terminal para instalá-la, caso isso não funcione, [acesse este tutorial](https://github.com/educodehub/oficina-python/blob/main/aula01/Instala%C3%A7%C3%A3o_pytest.md).
+2. Com a biblioteca instalada e ainda no prompt de comando, verifique se você está no diretório da atividade (o mesmo com todos os arquivos desta atividade), caso não esteja, volte aos passos no bloco **Note** e repita-os.
+3. Uma vez com o terminal no diretório correto, execute `pytest -k test_conta_vogal.py`.
 
 | **Testes que falharam**                                      |
 | ------------------------------------------------------------ |
