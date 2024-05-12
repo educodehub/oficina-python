@@ -15,20 +15,18 @@ Seu programa deve começar pedindo ao usuário para inserir as notas do aluno. L
 
 ## Instruções para construir e rodar o script
 > [!NOTE]
-> Antes de continuarmos, você precisa baixar alguns arquivos. No seu primeiro exercício você criou uma pasta **exercicios_python** no diretório `C:\Temp`. Abra um terminal do seu prompt de comando e vá para esse diretório (`C:\Temp\exercicios_python`). Uma vez no prompt de comando, digite: `curl -o media.py https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio03/media.py`. Isso fará o download do arquivo **media.py**, um arquivo base que contém o esqueleto do programa que está sendo proposto. É nele que você implementará todo o seu código. **Não mude o nome do arquivo**. 
+> Antes de continuarmos, você precisa baixar alguns arquivos. <ul><li>Caso ainda não tenha criado, em um diretório da sua escolha, crie uma pasta chamada **exercicios_python** e abra-a no VSCode, é nessa pasta que você alocará todos os programas e arquivos de testes desenvolvidos para todos os exercícios. <li>Com a pasta aberta, crie uma nova pasta chamada **media** para armazenar os arquivos desta atividade em específico. <li>Digite `Ctrl+Shift+"` para abrir um novo terminal do seu prompt de comando e, em seguida, digite `cd media` para abrir o diretório da atividade. <li>Uma vez no diretório da atividade, digite: `curl -o media.py https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio03/media.py`, para fazer o download do arquivo **media.py**, que contém o esqueleto do programa para o exercício proposto. Utilize-o de base para desenvolver seu código. **Não mude o nome do arquivo**</ul>
 
-Ao abrir o arquivo **media.py**, você notará que possuímos 3 funções definidas, no entanto, sem escopo, o qual será implementado por você, aluno, durante a resolução deste exercício. Essas funções serão as responsáveis por deter toda a lógica de programação da sua calculadora de média. Dentre essas funções, a **main()** é o que chamamos de função principal e as demais funções (**calcular_media** e **verificar_aprovacao**) devem ser chamadas através dela.
+Ao abrir o arquivo **media.py**, você notará que possuímos 3 funções definidas, no entanto, sem escopo, o qual será implementado por você, aluno, durante a resolução deste exercício. Essas funções serão as responsáveis por deter toda a lógica de programação da sua calculadora de média. Dentre essas funções, a **main()** é o que chamamos de função principal e as demais funções (**calcular_media()** e **verificar_aprovacao()**) devem ser chamadas através dela.
 
 ## Instruções para bateria de testes
 
-Para rodar a sua base de testes, precisará seguir alguns passos:
 > [!IMPORTANT]
-> Antes de tudo precisamos baixar também os arquivos **test_media.py** e **pytest.ini**. Novamente, abra um terminal do seu prompt de comando e siga até este diretório **C:\Temp\exercicios_python**. Então, uma vez no diretório correto digite `curl -o test_media.py https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio03/test_media.py` para baixar o arquivo **test_media.py** e `curl -o pytest.ini https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio03/pytest.ini ` para baixar o arquivo **pytest.ini**. Feito isso, agora você pode prosseguir para os próximos passos.
+> Antes de tudo, para os testes funcionarem, precisamos baixar também os arquivos **test_media.py** e **pytest.ini**: <ul><li>Uma vez no diretório da atividade, digite `curl -o test_media.py https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio03/test_media.py` para baixar o arquivo **test_media.py**. <li>Em seguida, digite `curl -o pytest.ini https://raw.githubusercontent.com/educodehub/oficina-python/main/aula01/exercicios/exercicio03/pytest.ini` para baixar o arquivo **pytest.ini**. Feito isso, agora você pode prosseguir para os próximos passos.</ul>
 
-1. Abra um terminal do seu prompt de comando.
-2. Contamos que você já tenha a biblioteca **Pytest** instalada e configurada no seu computador. Caso não possua, siga este [tutorial](https://github.com/educodehub/oficina-python/blob/main/aula01/Instala%C3%A7%C3%A3o_pytest.md).
-3. Ainda no prompt de comando, vá para o mesmo diretório no qual você incluiu o arquivo **test_media.py**. No seu caso `C:\Temp\exercicios_python`.
-4. Uma vez no prompt, e no diretório correto, execute `pytest -k test_media.py`.
+1. Se você ainda não possui a biblioteca **Pytest**, digite `pip install pytest` no terminal para instalá-la, caso isso não funcione, [acesse este tutorial](https://github.com/educodehub/oficina-python/blob/main/aula01/Instala%C3%A7%C3%A3o_pytest.md).
+2. Com a biblioteca instalada e ainda no prompt de comando, verifique se você está no diretório da atividade (o mesmo com todos os arquivos desta atividade), caso não esteja, volte aos passos no bloco **Note** e repita-os.
+3. Uma vez com o terminal no diretório correto, execute `pytest -k test_fatorial.py`.
 
 | **Testes que falharam** |
 |-------------------------|
