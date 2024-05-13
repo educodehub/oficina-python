@@ -4,7 +4,7 @@ Neste exercício, você vai construir, rodar e testar um programa que conta o n�
 
 ## Problema
 
-Escreva um programa que conte o número de vogais em um texto digitado pelo usuário. O programa deve solicitar ao usuário que insira uma texto e, em seguida, calcular e exibir o número total de vogais na texto. **Desconsidere o uso de acentos**.
+Escreva um programa que conte o número de vogais em um texto digitado pelo usuário. O programa deve solicitar ao usuário que insira uma texto e, em seguida, calcular e exibir o número total de vogais no texto. **Desconsidere o uso de acentos**.
 
 <details>
     <summary>Pistas</summary>
