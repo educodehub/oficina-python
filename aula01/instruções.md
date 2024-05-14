@@ -5,17 +5,17 @@ Bem-vindo ao guia de conteúdo da primeira aula, aqui estão todos os links impo
 ## Aula
 [Aula Gravada](https://www.youtube.com/watch?v=Q1lpAoMDrm4)
 
-Acesse o link acima para ser direcionado à primeira aula.
+Clique no link acima para ser direcionado à primeira aula.
 
 
 ## Material Complementar
 [Pré-Aula](https://github.com/educodehub/oficina-python/blob/main/aula01/materiais/Pr%C3%A9-aula%20-%20Aula%2001%20-%20Oficina%20de%20Python.md)
 
-Clique no link acima para ser redirecionado ao material de pré-aula referente a Aula 01 da sua oficina de Python.
+Clique no link acima para ser redirecionado ao material de pré-aula referente à primeira aula.
 
 [Pós-Aula](https://github.com/educodehub/oficina-python/blob/main/aula01/materiais/P%C3%B3s-aula%20-%20Aula%2001%20-%20Oficina%20de%20Python.md)
 
-Clique no link acima para ser redirecionado ao material de pós-aula referente a Aula 01 da sua oficina de Python.
+Clique no link acima para ser redirecionado ao material de pós-aula referente à primeira aula.
 
 
 ## Exercícios
