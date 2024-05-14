@@ -1,27 +1,32 @@
-# Bem-vindo ao guia de instruções
+# Guia de Conteúdo - Aula 01
+Bem-vindo ao guia de conteúdo da primeira aula, aqui estão todos os links importantes para você nessa aula. Tanto os exercícios que você precisará resolver, quanto o material complementar, desde antes até depois da aula.
 
-Aqui estão todos os links importantes para você, desde antes até depois da aula, e também os exercícios que você precisará resolver.
 
-## Links úteis
+## Aula
+[Aula Gravada](https://www.youtube.com/watch?v=Q1lpAoMDrm4)
 
-[Exercício 01 - Aula 01](https://github.com/educodehub/oficina-python/blob/main/aula01/exercicios/exercicio01/instru%C3%A7%C3%B5es.md)
+Acesse o link acima para ser direcionado à primeira aula.
 
-Clique neste link para ser redirecionado para o guia de instruções do seu exercício 01 da sua primeira aula de Python.
 
-[Exercício 02 - Aula 01](https://github.com/educodehub/oficina-python/blob/main/aula01/exercicios/exercicio02/instru%C3%A7%C3%B5es.md)
-
-Clique neste link para ser redirecionado para o guia de instruções do seu exercício 02 da sua primeira aula de Python.
-
-[Exercício 03 - Aula 01](https://github.com/educodehub/oficina-python/blob/main/aula01/exercicios/exercicio03/instru%C3%A7%C3%B5es.md)
-
-Clique neste link para ser redirecionado para o guia de instruções do seu exercício 03 da sua primeira aula de Python.
-
+## Material Complementar
 [Pré-Aula](https://github.com/educodehub/oficina-python/blob/main/aula01/materiais/Pr%C3%A9-aula%20-%20Aula%2001%20-%20Oficina%20de%20Python.md)
 
-Clique no link acima para ser redirecionado para o material de pré-aula referente a Aula 01 da sua oficina de Python.
+Clique no link acima para ser redirecionado ao material de pré-aula referente a Aula 01 da sua oficina de Python.
 
 [Pós-Aula](https://github.com/educodehub/oficina-python/blob/main/aula01/materiais/P%C3%B3s-aula%20-%20Aula%2001%20-%20Oficina%20de%20Python.md)
 
-Clique no link acima para ser redirecionado para o material de pós-aula referente a Aula 01 da sua oficina de Python.
+Clique no link acima para ser redirecionado ao material de pós-aula referente a Aula 01 da sua oficina de Python.
 
-**Espero que esses recursos sejam úteis para o seu aprendizado!**
+
+## Exercícios
+[Exercício 01 - contar_vogais.py](https://github.com/educodehub/oficina-python/blob/main/aula01/exercicios/exercicio01/instru%C3%A7%C3%B5es.md)
+
+Clique neste link para ser redirecionado ao guia de instruções do seu primeiro exercício.
+
+[Exercício 02 - fatorial.py](https://github.com/educodehub/oficina-python/blob/main/aula01/exercicios/exercicio02/instru%C3%A7%C3%B5es.md)
+
+Clique neste link para ser redirecionado ao guia de instruções do seu segundo exercício.
+
+[Exercício 03 - media.py](https://github.com/educodehub/oficina-python/blob/main/aula01/exercicios/exercicio03/instru%C3%A7%C3%B5es.md)
+
+Clique neste link para ser redirecionado ao guia de instruções do seu terceiro exercício.
