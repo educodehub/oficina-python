@@ -3,7 +3,9 @@
 
 
 ## Instruções
-Escreva um programa que receba um número natural **n** na entrada e imprima o fatorial deste número (**n!**) na saída. Lembre-se que o fatorial de 0 vale 1, e que não existe fatorial para números negativos (**n < 0**)!
+Escreva um programa que receba um número natural **n** na entrada e imprima o fatorial deste número (**n!**) na saída. 
+
+Lembre-se que o fatorial de 0 vale 1, e que não existe fatorial para números negativos, portanto, caso o programa receba um número negativo, o mesmo deverá exibir uma mensagem de erro.
 > [!TIP]
 > <details>
 >    <summary>Pistas</summary>
