@@ -51,7 +51,7 @@ Feito isso, você vai estar pronto para começar a atividade.
 ## Como testar
 Com o terminal aberto na pasta contendo o programa, é assim que você vai testá-lo:
 <ul>
-    <li>Execute o script e digite <code>8</code>, <code>7</code>, <code>7</code> e <code>6</code>, um para cada linha do terminal, e pressione <strong>Enter</strong>. O programa deverá retornar <code>Média 8.0 - B</code>.</li>
+    <li>Execute o script e digite <code>8</code>, <code>8</code>, <code>7</code> e <code>9</code>, um para cada linha do terminal, e pressione <strong>Enter</strong>. O programa deverá retornar <code>Média 8.0 - B</code>.</li>
     <li>Execute o script e digite <code>9</code>, <code>5</code>, <code>7</code> e <code>6</code>, um para cada linha do terminal, e pressione <strong>Enter</strong>. O programa deverá retornar <code>Média 6.75 - D</code>.</li>
     <li>Execute o script e digite <code>9</code>, <code>9</code>, <code>10</code> e <code>8</code>, um para cada linha do terminal, e pressione <strong>Enter</strong>. O programa deverá retornar <code>Média 9.0 - A</code>.</li>
     <li>Execute o script e digite <code>5</code>, <code>6</code>, <code>5.5</code> e <code>5.5</code>, um para cada linha do terminal, e pressione <strong>Enter</strong>. O programa deverá retornar <code>Média 5.5 - F</code>.</li>
