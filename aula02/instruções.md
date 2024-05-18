@@ -2,7 +2,7 @@
 Bem-vindo ao guia de conteúdo da segunda aula, aqui estão todos os links importantes para você nessa aula. Tanto os exercícios que você precisará resolver, quanto o material complementar, desde antes até depois da aula.
 
 
-> [!CAUTION]
+> [!WARNING]
 > AINDA EM MANUTENÇÃO
 >## Material Complementar
 >[Pré-Aula]()
