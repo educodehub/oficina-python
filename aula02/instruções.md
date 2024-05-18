@@ -2,16 +2,14 @@
 Bem-vindo ao guia de conteúdo da segunda aula, aqui estão todos os links importantes para você nessa aula. Tanto os exercícios que você precisará resolver, quanto o material complementar, desde antes até depois da aula.
 
 
-> [!WARNING]
-> AINDA EM MANUTENÇÃO
->## Material Complementar
->[Pré-Aula]()
->
->Clique no link acima para ser redirecionado ao material de pré-aula referente à primeira aula.
->
->[Pós-Aula]()
->
->Clique no link acima para ser redirecionado ao material de pós-aula referente à primeira aula.
+## Material Complementar
+[Pré-Aula](https://github.com/educodehub/oficina-python/blob/main/aula02/materiais/Pr%C3%A9-Aula%20-%20Aula%2002%20-%20Oficina%20de%20Python.md)
+
+Clique no link acima para ser redirecionado ao material de pré-aula referente à primeira aula.
+
+[Pós-Aula](https://github.com/educodehub/oficina-python/blob/main/aula02/materiais/P%C3%B3s-Aula%20-%20Aula%2002%20-%20Oficina%20de%20Python.md)
+
+Clique no link acima para ser redirecionado ao material de pós-aula referente à primeira aula.
 
 
 ## Exercícios
