@@ -5,7 +5,7 @@
 ## Instruções
 Nessa atividade você deverá criar um programa que organiza os itens e quantidades de cada item de uma lista de compras em um dicionário python. 
 
-Crie um programa que leia uma entrada no formato `item1 quantidade1; item2 quantidade2`, com os diferentes itens separados por ';' (ponto e vírgula) e suas respectivas quantidades separadas por ' ' (espaço), e organizes esses elementos em um dicionário contendo todos os pares `{item: quantidade}`. Ao fim da execução, o programa deverá exibir esse dicionário no terminal.
+Crie um programa que leia uma entrada no formato `item1 quantidade1; item2 quantidade2`, com os diferentes itens separados por ';' (ponto e vírgula) e suas respectivas quantidades separadas por ' ' (espaço), e organize esses elementos em um dicionário contendo todos os pares `{item: quantidade}`. Ao fim da execução, o programa deverá exibir esse dicionário no terminal.
 \
 \
 \
