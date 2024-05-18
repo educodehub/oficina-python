@@ -3,9 +3,9 @@
 # letras_unicas.py
 
 ## Instruções
-Crie um programa que receba uma string e retorne uma lista contendo todas a letras únicas na strig organizadas em ordem alfabética.
+Crie um programa que receba uma string e retorne uma lista contendo todas a letras únicas na string organizadas em ordem alfabética.
 
-O programa deverá ser *case-insentive*, ou seja, não deverá haver distinções entre letras maiúsculas e minúsculas. Além disso, a lista deverá conter apenas caracteres alfabéticos, nada de espaços ou números. **Desconsidere o uso de acentos ou cedilha.**
+O programa deverá ser *case-insentive*, ou seja, não deverá haver distinção entre letras maiúsculas e minúsculas. Além disso, a lista deverá conter apenas caracteres alfabéticos, nada de espaços, números ou pontuação. **Desconsidere o uso de acentos ou cedilha.**
 \
 \
 \
