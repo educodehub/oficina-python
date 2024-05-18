@@ -1,3 +1,4 @@
+[Guia de Conteúdo - Aula 02 >](https://github.com/educodehub/oficina-python/blob/main/aula02/instru%C3%A7%C3%B5es.md)
 # Guia de Conteúdo - Aula 01
 Bem-vindo ao guia de conteúdo da primeira aula, aqui estão todos os links importantes para você nessa aula. Tanto os exercícios que você precisará resolver, quanto o material complementar, desde antes até depois da aula.
 
