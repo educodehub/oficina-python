@@ -1,9 +1,3 @@
-> [!CAUTION]
-> ## como enviar
-> atv_nome [Exercício 01 - Oficina de Python - Aula 1]
-> 
-> atv_link
-
 [Voltar](https://github.com/educodehub/oficina-python/blob/main/aula03/instru%C3%A7%C3%B5es.md)
 
 # adivinhe.py
@@ -72,6 +66,6 @@ Se algum dos testes falhar, tente corrigir o programa antes de enviá-lo. Caso c
 
 
 ## Como enviar
-Acesse o link do [atv_nome](atv_link) e você será redirecionado para a sua atividade no Classroom. Lá conterão as instruções para que submeta seu trabalho **adivinhe.py**. 
+Acesse o link do [Exercício 01 - Oficina de Python - Aula 3](https://classroom.google.com/c/Njc1ODQ0MDM4MTU5/a/NjgyMjQzNDgxOTQ5/details) e você será redirecionado para a sua atividade no Classroom. Lá conterão as instruções para que submeta seu trabalho **adivinhe.py**. 
 
 **Boa sorte!!! Nos vemos no próximo exercício** 👋
