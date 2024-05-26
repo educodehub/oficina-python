@@ -14,9 +14,9 @@ Nessa atividade, vamos nos aprofundar um pouco mais na utilização da bibliotec
 Para conseguir as informações, você deverá fazer requisições à API *[PokeAPI](https://pokeapi.co/)* usando a biblioteca requests, e extrair as informações de ***id*** e ***tipos*** do JSON obtido como respsota.
 
 A sua pokedex deverá cumprir com os seguintes requisitos:
-1. Ao executar o programa, deverá ser inserido, como argumento, o nome de um pokedex para ser analisado;
+1. Ao executar o programa, deverá ser inserido, como argumento, o nome de um pokemon para ser analisado;
     1. Se nenhum argumento for dado, o programa deverá encerrar prematuramente e exibir uma mensagem avisando da ausência do argumento;
-    2. Se o pokedex não existir, o programa deverá encerrar prematuramente e exibir uma mensagem avisando que o pokemon não existe (veja: [como verificar o código de status da resposta de uma requisição](https://requests.readthedocs.io/projects/pt/pt-br/latest/user/quickstart.html#codigo-do-status-da-resposta));
+    2. Se o pokemon não existir, o programa deverá encerrar prematuramente e exibir uma mensagem avisando que o pokemon não existe (veja: [como verificar o código de status da resposta de uma requisição](https://requests.readthedocs.io/projects/pt/pt-br/latest/user/quickstart.html#codigo-do-status-da-resposta));
 2. Caso o pokemon exista, o programa deverá retornar:
    1. O id da pokedex para o pokemon escolhido;
    2. **Todos** os tipos associados ao pokemon.
