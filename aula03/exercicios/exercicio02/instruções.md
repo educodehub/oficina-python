@@ -5,7 +5,7 @@
 ## Instruções
 Na nossa aula vimos o conceito de *APIs* e como acessá-las por meio de requisições HTTP usando a biblioteca ***requests***. 
 
-Nessa atividade, vamos nos aprofundar um pouco mais na utilização da biblioteca requests criando uma pokedex simplificada que recebe o nome de um pokedex e retorna seu id e seus tipos (normal, ghost, fire etc.).
+Nessa atividade, vamos nos aprofundar um pouco mais na utilização da biblioteca requests criando uma pokedex simplificada que recebe o nome de um pokemon e retorna seu id e seus tipos (normal, ghost, fire etc.).
 \
 \
 \
