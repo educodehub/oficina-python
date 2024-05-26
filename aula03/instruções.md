@@ -6,7 +6,7 @@ Bem-vindo ao guia de conteúdo da terceira aula, aqui estão todos os links impo
 ## Material Complementar
 [Pré-Aula](https://github.com/educodehub/oficina-python/blob/main/aula03/materiais/Pr%C3%A9-Aula%20-%20Aula%2003%20-%20Oficina%20de%20Python.md)
 
-Clique no link acima para ser redirecionado ao material de pré-aula referente à primeira aula.
+Clique no link acima para ser redirecionado ao material de pré-aula referente à terceira aula.
 
 
 ## Exercícios
