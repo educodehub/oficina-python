@@ -27,7 +27,11 @@ Para mais informações sobre os usos de *requests*, veja o [guia de início rá
 > <details>
 >    <summary>Pistas</summary>
 >    <ol>
->        <li>Você pode fazer uma requisição à PokeAPI da seguinte forma:</li>
+>        <li>Como requests é uma biblioteca externa, antes de usá-la você deve instalá-la usando o seguinte comando:</li>
+>
+>    `pip install requests`
+>
+>    <li>Você pode fazer uma requisição à PokeAPI da seguinte forma:</li>
 >
 >    `https://pokeapi.co/api/v2/pokemon/nome_do_pokemon`
 >  
