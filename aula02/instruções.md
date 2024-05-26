@@ -8,11 +8,11 @@ Bem-vindo ao guia de conteúdo da segunda aula, aqui estão todos os links impor
 ## Material Complementar
 [Pré-Aula](https://github.com/educodehub/oficina-python/blob/main/aula02/materiais/Pr%C3%A9-Aula%20-%20Aula%2002%20-%20Oficina%20de%20Python.md)
 
-Clique no link acima para ser redirecionado ao material de pré-aula referente à primeira aula.
+Clique no link acima para ser redirecionado ao material de pré-aula referente à segunda aula.
 
 [Pós-Aula](https://github.com/educodehub/oficina-python/blob/main/aula02/materiais/P%C3%B3s-Aula%20-%20Aula%2002%20-%20Oficina%20de%20Python.md)
 
-Clique no link acima para ser redirecionado ao material de pós-aula referente à primeira aula.
+Clique no link acima para ser redirecionado ao material de pós-aula referente à segunda aula.
 
 
 ## Exercícios
