@@ -1,9 +1,3 @@
-> [!CAUTION]
-> ## como enviar
-> atv_nome [Exercício 01 - Oficina de Python - Aula 1]
-> 
-> atv_link
-
 [Voltar](https://github.com/educodehub/oficina-python/blob/main/aula03/instru%C3%A7%C3%B5es.md)
 
 # pokedex.py
@@ -19,13 +13,13 @@ Nessa atividade, vamos nos aprofundar um pouco mais na utilização da bibliotec
 
 Para conseguir as informações, você deverá fazer requisições à API *[PokeAPI](https://pokeapi.co/)* usando a biblioteca requests, e extrair as informações de ***id*** e ***tipos*** do JSON obtido como respsota.
 
-A sua pokedex devrá cumprir com os seguintes requisitos:
+A sua pokedex deverá cumprir com os seguintes requisitos:
 1. Ao executar o programa, deverá ser inserido, como argumento, o nome de um pokedex para ser analisado;
     1. Se nenhum argumento for dado, o programa deverá encerrar prematuramente e exibir uma mensagem avisando da ausência do argumento;
-    2. Se o pokedex não existir, o programa deverá encerrar prematuramente e exibir uma mensagem avisando que o pokedex não existe (veja: [como verificar o código de status da resposta de uma requisição](https://requests.readthedocs.io/projects/pt/pt-br/latest/user/quickstart.html#codigo-do-status-da-resposta));
-2. Caso o pokedex exista, o programa deverá retornar:
-   1. O id da pokedex para o pokedex escolhido;
-   2. **Todos** os tipos associados ao pokedex.
+    2. Se o pokedex não existir, o programa deverá encerrar prematuramente e exibir uma mensagem avisando que o pokemon não existe (veja: [como verificar o código de status da resposta de uma requisição](https://requests.readthedocs.io/projects/pt/pt-br/latest/user/quickstart.html#codigo-do-status-da-resposta));
+2. Caso o pokemon exista, o programa deverá retornar:
+   1. O id da pokedex para o pokemon escolhido;
+   2. **Todos** os tipos associados ao pokemon.
 
 \
 Para mais informações sobre os usos de *requests*, veja o [guia de início rápido](https://requests.readthedocs.io/projects/pt/pt-br/latest/user/quickstart.html) da biblioteca.
@@ -109,6 +103,6 @@ Se algum dos testes falhar, tente corrigir o programa antes de enviá-lo. Caso c
 
 
 ## Como enviar
-Acesse o link do [atv_nome](atv_link) e você será redirecionado para a sua atividade no Classroom. Lá conterão as instruções para que submeta seu trabalho **pokedex.py**. 
+Acesse o link do [Exercício 02 - Oficina de Python - Aula 3](https://classroom.google.com/c/Njc1ODQ0MDM4MTU5/a/NjgyMjQzNDgzOTk0/details) e você será redirecionado para a sua atividade no Classroom. Lá conterão as instruções para que submeta seu trabalho **pokedex.py**. 
 
 **Boa sorte!!! Nos vemos no próximo exercício** 👋
